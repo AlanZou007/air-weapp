@@ -1,1 +1,7 @@
 /* pages/badge/badge.wxss */
+.content {
+    margin-left: 16rpx;
+    display: inline-block;
+    padding: 8px;
+    background-color: #ececec;
+}

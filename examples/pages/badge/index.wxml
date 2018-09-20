@@ -1,3 +1,13 @@
 <!--pages/badge/badge.wxml-->
 <air-panel title="一般用法"></air-panel>
-<air-badge content="badge" value="5" width="50"></air-badge>
+ <air-badge value="5">
+        <view class="content">badge</view>
+</air-badge>
+<air-panel title="超出上限"></air-panel>
+ <air-badge value="100">
+        <view class="content">badge</view>
+</air-badge>
+<air-panel title="只显示点"></air-panel>
+ <air-badge dot>
+        <view class="content">badge</view>
+</air-badge>

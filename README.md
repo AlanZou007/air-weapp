@@ -10,19 +10,21 @@
 [![Build Status](https://travis-ci.org/AlanZou007/air-weapp.svg?branch=master)](https://travis-ci.org/AlanZou007/air-weapp)
 
 ## 概述
-[air-webapp](https://github.com/AlanZou007/air-weapp) 小程序UI框架，简单， 实用。
+[air-webapp](https://github.com/AlanZou007/air-weapp) 小程序UI库，简单， 实用。
 
 
-组件现已包含actionsheet, button, cell, cell-group, icon, loading, loadmore, panel, popup, rate, stepper, switch, timer, top-tips, upload, qrcode.
+组件现已包含actionsheet, badge, button, cell, cell-group, icon, loading, loadmore, panel, popup, rate, stepper, switch, timer, top-tips, upload, qrcode.
 
 ## 下载
 ```bash
- git clone https://github.com/AlanZou007/air-weapp.git
+ npm install air-weapp
 ```
 
 ## 预览
 
-![AirUI-WeApp](./asserts/images/demo.png)
+![AirUI-WeApp](./asserts/images/code.jpg)
+
+注意： 线上版本因为腾讯大佬的问题，可能落后于现在版本。
 
 1. 在 air-weapp 根目录下运行
     ``` bash

@@ -6,6 +6,7 @@
   "directories": {
     "example": "example"
   },
+  "miniprogram": "dist",
   "scripts": {
     "dev": "gulp --gulpfile build/build-dev.js",
     "build": "gulp --gulpfile build/build-prod.js",

@@ -1,5 +1,5 @@
 {
-    "navagationBarTittleText": "Badge 徽章",
+    "navigationBarTitleText": "Badge 徽章",
     "usingComponents": {
         "air-panel": "../../dist/panel/index",
         "air-badge": "../../dist/badge/index"

@@ -6,4 +6,4 @@ App({
     globalData: {
 
     }
-})
+});

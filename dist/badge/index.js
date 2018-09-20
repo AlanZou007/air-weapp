@@ -1,15 +1,16 @@
 Component({
     externalClasses: ['air-class'],
     properties: {
-        content: {
-            type: String,
-            value: ''
+        dot: {
+            type: Boolean,
+            value: false
         },
         value: {
             type: Number,
-            value: 14
+            value: 0,
+            observer: 'finalCount'
         },
-        bgcolor: {
+        bgColor: {
             type: String,
             value: 'red'
         },
@@ -21,9 +22,19 @@ Component({
             type: Number,
             value: 10
         },
-        width: {
-            type: String,
-            value: 50
+        max: {
+            type: Number,
+            value: 99
+        }
+    },
+    methods: {
+        finalCount() {
+            const {value, max} = this.data;
+
+            this.setData({
+                finalCount: value > max ? `${max}+` : value
+            });
+
         }
     }
 });
