@@ -1,0 +1,7 @@
+{
+    "navigationBarTitleText": "Qrcode 小程序码",
+    "usingComponents": {
+        "air-qrcode": "../../dist/qrcode/index",
+        "air-panel": "../../dist/panel/index"
+    }
+}

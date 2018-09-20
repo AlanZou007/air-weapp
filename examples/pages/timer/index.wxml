@@ -1,0 +1,31 @@
+<air-panel title="样式一">
+    <air-cell>
+        <air-timer
+            bind:complete="handleTimerComplete1"
+            deadline="{{startTime}}"
+            styleType="1"
+        />
+    </air-cell>
+</air-panel>
+
+<air-panel title="样式二">
+    <air-cell>
+        <air-timer
+            bind:complete="handleTimerComplete2" 
+            deadline="{{startTime}}"
+            styleType="2"
+        />
+    </air-cell>
+</air-panel>
+
+<air-panel title="样式三">
+    <air-cell>
+        <air-timer
+            bind:complete="handleTimerComplete3"
+            showDay="{{false}}"
+            showMsec="{{true}}"
+            deadline="{{startTime}}"
+            styleType="3"
+        />
+    </air-cell>
+</air-panel>

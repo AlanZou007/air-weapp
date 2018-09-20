@@ -1,0 +1,8 @@
+{
+    "navagationBarTittleText": "ActionSheet 按钮",
+    "usingComponents": {
+        "air-action-sheet": "../../dist/action-sheet/index",
+        "air-button": "../../dist/button/index",
+        "air-top-tips": "../../dist/top-tips/index"
+    }
+}

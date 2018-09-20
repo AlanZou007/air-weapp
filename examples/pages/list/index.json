@@ -3,6 +3,8 @@
     "usingComponents": {
       "air-panel": "../../dist/panel/index",
       "air-cell-group": "../../dist/cell-group/index",
-      "air-cell": "../../dist/cell/index"
+      "air-cell": "../../dist/cell/index",
+      "air-switch": "../../dist/switch/index",
+      "air-icon": "../../dist/icon/index"
     }
   }

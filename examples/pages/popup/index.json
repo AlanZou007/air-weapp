@@ -1,0 +1,7 @@
+{
+    "navigationBarTitleText": "Popup 弹出层",
+    "usingComponents": {
+        "air-popup": "../../dist/popup/index",
+        "air-button": "../../dist/button/index"
+    }
+}

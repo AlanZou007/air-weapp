@@ -1,0 +1,6 @@
+<view class='air-class air_badge' style='width:{{width}}px;'>
+  <view>{{content}}</view>
+  <view class='badge' style='background-color: {{bgcolor}};color:{{color}};font-size:{{fontSize}}+px'>{{value}}</view>
+</view>
+
+

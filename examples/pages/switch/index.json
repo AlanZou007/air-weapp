@@ -1,0 +1,8 @@
+{
+    "navigationBarTitleText": "Switch 开关选择器",
+    "usingComponents": {
+        "air-switch": "../../dist/switch/index",
+        "air-cell": "../../dist/cell/index",
+        "air-panel": "../../dist/panel/index"
+    }
+}

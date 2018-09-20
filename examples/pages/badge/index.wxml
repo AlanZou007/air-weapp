@@ -1,0 +1,3 @@
+<!--pages/badge/badge.wxml-->
+<air-panel title="一般用法"></air-panel>
+<air-badge content="badge" value="5" width="50"></air-badge>

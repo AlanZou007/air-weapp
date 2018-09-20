@@ -1,0 +1,5 @@
+<view class="air-class air-stepper">
+    <view class="air-stepper-minus {{ value <= min ? 'air-stepper-disabled' : '' }}" data-disabled="{{ value <= min }}" bindtap="handleMinus">-</view>
+    <input class="air-stepper-text {{ min >= max ? 'air-stepper-disabled' : '' }}" type="number" value="{{ value }}" disabled="{{ min >= max }}" bindblur="handleBlur" />
+    <view class="air-stepper-plus {{ value >= max ? 'air-stepper-disabled' : '' }}" data-disabled="{{ value >= max }}" bindtap="handlePlus">+</view>
+</view>

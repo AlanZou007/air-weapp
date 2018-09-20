@@ -1,0 +1,118 @@
+<air-panel title="主色">
+    <view class="color-wrap">
+        <view class="color-item primary">
+            <view class="color-item-title">
+                Primary
+            </view>
+            <view class="color-item-content">
+                {{primary}}
+            </view>
+        </view>
+        <view class="color-item light-primary">
+            <view class="color-item-title">
+                Light Primary
+            </view>
+            <view class="color-item-content">
+                {{lightPrimary}}
+            </view>
+        </view>
+        <view class="color-item dark-primary">
+            <view class="color-item-title">
+                Dark Primary
+            </view>
+            <view class="color-item-content">
+                {{darkPrimary}}
+            </view>
+        </view>
+    </view>
+</air-panel>
+
+<air-panel title="辅助色">
+    <view class="color-wrap">
+        <view class="color-item success">
+            <view class="color-item-title">
+                Success
+            </view>
+            <view class="color-item-content">
+                {{success}}
+            </view>
+        </view>
+        <view class="color-item warning">
+            <view class="color-item-title">
+            Warning
+            </view>
+            <view class="color-item-content">
+                {{warning}}
+            </view>
+        </view>
+        <view class="color-item error">
+            <view class="color-item-title">
+                Error
+            </view>
+            <view class="color-item-content">
+                {{error}}
+            </view>
+        </view>
+    </view>
+</air-panel>
+
+<air-panel title="中性色">
+    <view class="color-wrap">
+        <view class="color-item title">
+            <view class="color-item-title">
+                标题 Title
+            </view>
+            <view class="color-item-content">
+                {{title}}
+            </view>
+        </view>
+        <view class="color-item content">
+            <view class="color-item-title">
+            正文 Content
+            </view>
+            <view class="color-item-content">
+                {{content}}
+            </view>
+        </view>
+        <view class="color-item sub-color">
+            <view class="color-item-title">
+                辅助 SubColor
+            </view>
+            <view class="color-item-content">
+                {{subColor}}
+            </view>
+        </view>
+        <view class="color-item disabled">
+            <view class="color-item-title">
+                禁用 Disabled
+            </view>
+            <view class="color-item-content">
+                {{disabled}}
+            </view>
+        </view>
+        <view class="color-item border dark">
+            <view class="color-item-title">
+                边框 Border
+            </view>
+            <view class="color-item-content">
+                {{border}}
+            </view>
+        </view>
+        <view class="color-item divider dark">
+            <view class="color-item-title">
+                分割线 Divider
+            </view>
+            <view class="color-item-content">
+                {{divider}}
+            </view>
+        </view>
+        <view class="color-item background dark">
+            <view class="color-item-title">
+                背景 Background
+            </view>
+            <view class="color-item-content">
+                {{background}}
+            </view>
+        </view>
+    </view>
+</air-panel>

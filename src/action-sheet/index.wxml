@@ -1,0 +1,23 @@
+<view class="air-as-mask air-class-mask {{visible ? 'air-as-mask-show': ''}}" bindtap="handleClickMask"></view>
+<view class="air-class air-as {{visible ? 'air-as-show': ''}}">
+    <view class="air-as-header air-class-header">
+        <slot name="header"></slot>
+    </view>
+    <view class="air-as-action-item" wx:for="{{actions}}" wx:key="{{item.name}}">
+        <air-button 
+            bind:click="handleClickItem"
+            data-index="{{index}}"
+            open-type="{{item.openType}}"
+            type="{{item.type ? item.type : 'ghost'}}"
+            size="large"
+            long
+        >
+            <view class="air-as-btn-loading" wx:if="{{item.loading}}"></view>
+            <air-icon wx:if="{{item.icon}}" type="{{item.icon}}" class="air-as-btn-icon"></air-icon>
+            <view class="air-as-btn-text" style="{{item.color ? 'color:' + item.color : ''}}">{{item.name}}</view>
+        </air-button>
+    </view>
+    <view class="air-as-cancel" wx:if="{{showCancel}}">
+        <air-button class="air-as-cancel-btn" type="ghost" size="large" long="true" bind:click="handleClickCancel">{{cancelText}}</air-button>
+    </view>
+</view>

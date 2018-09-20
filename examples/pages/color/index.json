@@ -1,0 +1,6 @@
+{
+    "navigationBarTitleText": "Color 色彩",
+    "usingComponents": {
+        "air-panel": "../../dist/panel/index"
+    }
+}

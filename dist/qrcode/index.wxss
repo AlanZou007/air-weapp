@@ -1,0 +1,1 @@
+.air-qrcode{position:relative;text-align:center}.air-qrcode-loading{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%)}

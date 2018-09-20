@@ -1,0 +1,6 @@
+<view class="air-class air-panel">
+    <view wx:if="{{ title }}" class="air-panel-title {{hideTop ? 'air-panel-title-hide-top' : ''}}">{{ title }}</view>
+    <view class="air-panel-content {{hideBorder ? 'air-panel-without-border' : ''}}">
+        <slot></slot>
+    </view>
+</view>

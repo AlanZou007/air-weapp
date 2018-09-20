@@ -1,0 +1,12 @@
+<view
+  class="air-switch air-switch--{{ checked ? 'on' : 'off' }} {{ disabled ? 'air-swtich--disabled' : '' }}"
+  checked="{{ checked }}"
+  loading="{{ loading }}"
+  disabled="{{ disabled }}"
+  bindtap="handleSwitchChange"
+>
+  <view class="air-switch__circle">
+    <view hidden="{{ !loading }}" class="air-switch__loading"></view>
+  </view>
+  <view class="air-switch__bg"></view>
+</view>

@@ -1,0 +1,8 @@
+
+<air-panel title="加载更多">
+    <air-loadmore type="loading" color="#19be6b" />
+</air-panel>
+
+<air-panel title="无数据">
+    <air-loadmore type="nodata" text="已经到底了~" color="#999" />
+</air-panel>

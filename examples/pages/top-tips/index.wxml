@@ -1,0 +1,8 @@
+<view style="margin-top: 100px">
+    <air-button type="ghost" bind:click="handleDefault">默认提醒</air-button>
+    <air-button type="ghost" bind:click="handleSuccess">成功提醒</air-button>
+    <air-button type="ghost" bind:click="handleWarning">警告提醒</air-button>
+    <air-button type="ghost" bind:click="handleError">错误提醒</air-button>
+    <air-button type="ghost" bind:click="handleDuration">自定义持续时间</air-button>
+</view>
+<air-top-tips id="message" />

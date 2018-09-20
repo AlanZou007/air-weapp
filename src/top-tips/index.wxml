@@ -1,0 +1,3 @@
+<view class="air-class air-message air-message-{{type}} {{ visible ? 'air-message-show' : '' }}">
+    {{ content }}
+</view>

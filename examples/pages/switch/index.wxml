@@ -1,0 +1,17 @@
+  <air-panel title='同步开关'>
+    <air-cell>
+      <air-switch checked="{{sync.checked}}" bind:change="syncChange" />
+    </air-cell>
+  </air-panel>
+
+  <air-panel title='异步开关'>
+    <air-cell>
+      <air-switch checked="{{async.checked}}" disabled="{{ async.disabled }}" loading="{{ async.loading }}" bind:change="asyncChange" />
+    </air-cell>
+  </air-panel>
+
+  <air-panel title='禁止改动的开关'>
+    <air-cell>
+      <air-switch disabled="{{ true }}" />
+    </air-cell>
+  </air-panel>

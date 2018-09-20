@@ -1,0 +1,16 @@
+<view bindtap="handleTap" class="air-class air-cell {{isLastCell ? 'air-cell-last': ''}} {{isLink ? 'air-cell-access' : ''}}">
+    <view class='air-cell-icon'>
+        <slot name='icon'></slot>
+    </view>
+    <view class='air-cell-bd'>
+        <view class='air-cell-text' wx:if="{{ title }}">{{ title }}</view>
+        <view class='air-cell-desc' wx:if="{{ label }}">{{ label }}</view>
+        <slot></slot>
+    </view>
+    <view class='air-cell-ft' catchtap="navigateTo">
+        <block wx:if="{{value}}">{{ value }}</block>
+        <block wx:else>
+            <slot name="footer"></slot>
+        </block>
+    </view>
+</view>

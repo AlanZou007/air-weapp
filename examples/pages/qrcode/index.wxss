@@ -1,0 +1,3 @@
+.air-qrcode--padding {
+    padding: 20rpx;
+}

@@ -1,0 +1,26 @@
+<air-panel title="一般用法"></air-panel>
+
+<air-button bind:click="handleClick">默认按钮</air-button>
+<air-button bind:click="handleClick" type="error" long="true">连通两边按钮</air-button>
+<air-button bind:click="handleClick" type="primary">Primary</air-button>
+<air-button bind:click="handleClick" type="ghost">Ghost</air-button>
+<air-button bind:click="handleClick" type="info">Info</air-button>
+<air-button bind:click="handleClick" type="success">Success</air-button>
+<air-button bind:click="handleClick" type="warning">Warning</air-button>
+<air-button bind:click="handleClick" type="error">Error</air-button>
+
+<air-panel title="不同尺寸"></air-panel>
+
+<air-button bind:click="handleClick" type="primary" size="large">大尺寸</air-button>
+<air-button bind:click="handleClick" type="primary" size="default">默认尺寸</air-button>
+<air-button bind:click="handleClick" type="primary" size="small">小尺寸</air-button>
+
+<air-panel title="圆角的不同尺寸"></air-panel>
+
+<air-button bind:click="handleClick" type="success" shape="circle" size="large">大尺寸</air-button>
+<air-button bind:click="handleClick" type="success" shape="circle">默认尺寸</air-button>
+<air-button bind:click="handleClick" type="success" shape="circle" size="small">小尺寸</air-button>
+
+<air-button bind:click="handleClick" type="primary" loading="true">加载中按钮</air-button>
+
+<air-button bind:click="handleClick" type="primary" disabled>禁用按钮</air-button>

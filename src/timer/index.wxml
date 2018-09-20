@@ -1,0 +1,22 @@
+<view class="countdown countdown-type-{{styleType}}" wx:if="{{styleType === '1'}}">
+  <view class="countdown-item" wx:if="{{d!='00'&&showDay}}">{{d}}</view>
+  <view class="countdown-item">{{h}}</view>
+  <view class="countdown-item">{{m}}</view>
+  <view class="countdown-item">{{s}}</view>
+  <view class="countdown-item" wx:if="{{showMsec}}">{{ms}}</view>
+</view>
+
+<view class="countdown-type-{{styleType}}" wx:if="{{styleType === '2'}}">
+  <view class="countdown-item" wx:if="{{d!='00'&&showDay}}">{{d}}天</view>
+  <view class="countdown-item">{{h}}时</view>
+  <view class="countdown-item">{{m}}分</view>
+  <view class="countdown-item">{{s}}秒</view>
+</view>
+
+<view class="countdown countdown-type-1 countdown-type-{{styleType}}" wx:if="{{styleType === '3'}}">
+  <view class="countdown-item" wx:if="{{d!='00'&&showDay}}">{{d}}</view>
+  <view class="countdown-item">{{h}}</view>
+  <view class="countdown-item">{{m}}</view>
+  <view class="countdown-item">{{s}}</view>
+  <view class="countdown-item" wx:if="{{showMsec}}">{{ms}}</view>
+</view>

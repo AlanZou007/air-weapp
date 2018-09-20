@@ -1,0 +1,44 @@
+<air-cell-group>
+    <air-cell title="基本用法">
+        <air-rate
+            name="star1"
+            bind:change="onChange1" 
+            value="{{starIndex1}}">
+        </air-rate>
+    </air-cell>
+    <air-cell title="自定义星星个数">
+        <air-rate
+            bind:change="onChange5"
+            count="{{10}}"
+            value="{{starIndex5}}">
+        </air-rate>
+    </air-cell>
+    <air-cell title="自定义星星大小">
+        <air-rate 
+            bind:change="onChange2" 
+            value="{{starIndex2}}" 
+            size="32">
+        </air-rate>
+    </air-cell>
+    <air-cell title="自定义文字说明">
+        <air-rate 
+            bind:change="onChange2" 
+            value="{{starIndex2}}">
+            {{starIndex2}}星
+        </air-rate>
+    </air-cell>
+     <air-cell title="手势touch选择星">
+        <air-rate 
+            bind:change="onChange3" 
+            value="{{starIndex3}}">
+            {{starIndex3}}星
+        </air-rate>
+    </air-cell>
+    <air-cell title="禁用点击和手势选择星">
+        <air-rate 
+            disabled="{{true}}"
+            value="{{starIndex4}}">
+            {{starIndex4}}星
+        </air-rate>
+    </air-cell>
+</air-cell-group>

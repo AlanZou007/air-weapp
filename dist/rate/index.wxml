@@ -1,0 +1,13 @@
+<wxs src="./index.wxs" module="parse" />
+<view class="air-class air-rate" bindtouchmove="handleTouchMove">
+    <input type="text" name="{{name}}" value="{{value}}"  class="air-rate-hide-input" />
+    <view
+        wx:for="{{count}}"
+        wx:key="{{item}}"
+        class="air-rate-star {{parse.getCurrent(value, index)}}"
+        data-index="{{index}}" 
+        bindtap="handleClick">
+        <air-icon type="collection_fill" size="{{size}}"></air-icon>
+    </view>
+    <view class="air-rate-text" wx:if="{{ value !== 0 }}"><slot></slot></view>
+</view>

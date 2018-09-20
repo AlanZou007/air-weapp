@@ -1,11 +1,15 @@
 const gulp = require('gulp');
 const less = require('gulp-less');
 const cssmin = require('gulp-clean-css');
+const base64 = require('gulp-base64');
 const rename = require('gulp-rename');
 
 gulp.task('compile-css', () => {
     return gulp.src(['../src/**/*.less', '!../src/**/_*.less'])
         .pipe(less())
+        .pipe(base64({
+            extensions: ['svg', 'png', /\.jpg#datauri$/i],
+        }))
         .pipe(cssmin())
         .pipe(rename((path) => {
             path.extname = '.wxss';
@@ -14,7 +18,7 @@ gulp.task('compile-css', () => {
 });
 
 gulp.task('compile-js', () => {
-    return gulp.src(['../src/**/*.js'])
+    return gulp.src(['../src/**/*.js', '../src/**/*.wxs'])
         .pipe(gulp.dest('../examples/dist/'));
 });
 

@@ -1,0 +1,7 @@
+{
+    "navigationBarTitleText": "Loading 加载",
+    "usingComponents": {
+        "air-panel": "../../dist/panel/index",
+        "air-loading": "../../dist/loading/index"
+    }
+}

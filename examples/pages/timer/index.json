@@ -1,0 +1,8 @@
+{
+    "navigationBarTitleText": "Timer 倒计时",
+    "usingComponents": {
+        "air-panel": "../../dist/panel/index",
+        "air-cell": "../../dist/cell/index",
+        "air-timer": "../../dist/timer/index"
+    }
+}

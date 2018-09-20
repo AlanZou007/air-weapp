@@ -1,0 +1,7 @@
+{
+    "navigationBarTitleText": "Stepper 步进器",
+    "usingComponents": {
+        "air-stepper": "../../dist/stepper/index",
+        "air-panel": "../../dist/panel/index"
+    }
+}

@@ -1,0 +1,4 @@
+<view class="air-class air-qrcode" bindtap="preViewImage">
+    <air-loading air-class="air-qrcode-loading" wx:if="{{loading}}" />
+    <image wx:if="{{!loading}}" style="width: {{ size + 'px' }}; height: {{ size + 'px' }};" src="{{qrcodeImage}}" />
+</view>

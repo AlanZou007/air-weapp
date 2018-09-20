@@ -1,0 +1,3 @@
+<view class='air-class air-cell-group'>
+    <slot></slot>
+</view>

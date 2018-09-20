@@ -1,0 +1,12 @@
+<view
+  class="air-class air-pop air-pop--{{ type }} {{ show ? 'air-pop--show' : '' }}"
+>
+  <view 
+    wx:if="{{ showMask }}"
+    class="air-pop__mask {{ showMask ? '' : 'air-pop__mask--hide' }}"
+    bindtap="handleMaskClick"
+  ></view>
+  <view class="air-pop__container">
+    <slot></slot>
+  </view>
+</view>

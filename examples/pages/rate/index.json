@@ -1,0 +1,7 @@
+{
+    "usingComponents": { 
+        "air-cell-group": "../../dist/cell-group/index",
+        "air-cell": "../../dist/cell/index",
+        "air-rate": "../../dist/rate/index"
+    }
+}

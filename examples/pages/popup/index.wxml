@@ -1,0 +1,56 @@
+<view style="margin-top: 100px">
+    <air-button type="ghost" bind:click="togglePopup">默认弹出</air-button>
+    <air-button type="ghost" bind:click="toggleTopPopup">顶部弹出</air-button>
+    <air-button type="ghost" bind:click="toggleBottomPopup">底部弹出</air-button>
+    <air-button type="ghost" bind:click="toggleLeftPopup">左边弹出</air-button>
+    <air-button type="ghost" bind:click="toggleRightPopup">右边弹出</air-button>
+    <air-popup
+        show="{{showPopup}}"
+        showMask="{{true}}"
+        bind:close="togglePopup"
+    >
+       <view class="pop-example__container">
+           默认弹出
+       </view>
+    </air-popup>
+    <air-popup
+        type="left"
+        show="{{showLeftPopup}}"
+        showMask="{{true}}"
+        bind:close="toggleLeftPopup"
+    >
+       <view class="pop-example__container--left">
+           左边弹出
+       </view>
+    </air-popup>
+    <air-popup
+        type="right"
+        show="{{showRightPopup}}"
+        showMask="{{true}}"
+        bind:close="toggleRightPopup"
+    >
+       <view class="pop-example__container--right">
+           右边弹出
+       </view>
+    </air-popup>
+    <air-popup
+        type="top"
+        show="{{showTopPopup}}"
+        showMask="{{true}}"
+        bind:close="toggleTopPopup"
+    >
+       <view class="pop-example--top">
+           顶部弹出
+       </view>
+    </air-popup>
+    <air-popup
+        type="bottom"
+        show="{{showBottomPopup}}"
+        showMask="{{true}}"
+        bind:close="toggleBottomPopup"
+    >
+       <view class="pop-example__container--bottom">
+           底部弹出
+       </view>
+    </air-popup>
+</view>

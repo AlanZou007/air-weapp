@@ -1,14 +1,41 @@
-<!--index.wxml-->
-<air-panel title="布局">
-    <air-cell-group>
-        <air-cell title="Panel 面板" is-link url="/pages/panel/index"></air-cell>
-        <air-cell title="List 列表" is-link url="/pages/list/index"></air-cell>
-    </air-cell-group>
-</air-panel>
+<view class="air-logo">
+  <image class="air-logo--img" src="../../asserts/images/air.jpg" />
+</view>
 
 <air-panel title="布局">
+  <air-cell-group>
+    <air-cell title="Panel 面板" is-link url="/pages/panel/index"></air-cell>
+    <air-cell title="List 列表" is-link url="/pages/list/index"></air-cell>
+    <air-cell title="Color 色调" is-link url="/pages/color/index"></air-cell>
+  </air-cell-group>
+</air-panel>
+
+<air-panel title="基础组件">
    <air-cell-group>
         <air-cell title="Icon 图标" is-link url="/pages/icon/index"></air-cell>
         <air-cell title="Button 按钮" is-link url="/pages/button/index"></air-cell>
+         <air-cell title="Loading 加载" is-link url="/pages/loading/index"></air-cell>
+        <air-cell title="Rate 评分" is-link url="/pages/rate/index"></air-cell>
+        <air-cell title="Stepper 步进器" is-link url="/pages/stepper/index"></air-cell>
+          <air-cell title="Badge 徽章" is-link url="/pages/badge/index"></air-cell>
+        <air-cell title="Switch 开关选择器" is-link url="/pages/switch/index"></air-cell>
    </air-cell-group>
 </air-panel>
+
+<air-panel title="交互">
+   <air-cell-group>
+        <air-cell title="TopTips 顶部提示" is-link url="/pages/top-tips/index"></air-cell>
+        <air-cell title="Popup 弹出层" is-link url="/pages/popup/index"></air-cell>
+        <air-cell title="Action Sheet 动作面板" is-link url="/pages/action-sheet/index"></air-cell>
+        <air-cell title="Upload 文件上传" is-link url="/pages/upload/index"></air-cell>
+   </air-cell-group>
+</air-panel>
+
+<air-panel title="高阶组件">
+   <air-cell-group>
+        <air-cell title="Timer 倒计时" is-link url="/pages/timer/index"></air-cell>
+        <air-cell title="Loadmore 加载状态" is-link url="/pages/loadmore/index"></air-cell>
+        <air-cell title="Qrcode 小程序码" is-link url="/pages/qrcode/index"></air-cell>
+   </air-cell-group>
+</air-panel>
+

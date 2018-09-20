@@ -1,0 +1,30 @@
+<air-panel title="样式一">
+   <view class="upload-wrap">
+        <air-upload
+            bind:success="handleUploadSuccess"
+            bind:fail="handleUploadFail"
+        />
+   </view>
+</air-panel>
+
+<air-panel title="样式二">
+   <view class="upload-wrap">
+        <air-upload
+            air-class="upload-camera" 
+            type="camera"
+            color="#409eff"
+            bind:success="handleUploadSuccess"
+            bind:fail="handleUploadFail"
+        />
+   </view>
+</air-panel>
+
+<air-panel title="自定义">
+    <air-upload
+            type="custom"
+            bind:success="handleUploadSuccess"
+            bind:fail="handleUploadFail"
+        >
+           <air-button size="small" type="primary">上传</air-button>
+    </air-upload>
+</air-panel>

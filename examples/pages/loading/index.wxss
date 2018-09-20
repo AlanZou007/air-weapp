@@ -1,0 +1,10 @@
+.loading-wrap {
+    margin-top: 20rpx;
+    background-color: #fff;
+    padding: 20rpx;
+}
+
+.loading-info {
+    margin-top: 8rpx;
+    text-align: center;
+}

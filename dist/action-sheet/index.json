@@ -1,0 +1,7 @@
+{
+    "component": true,
+    "usingComponents": {
+        "air-button": "../button/index",
+        "air-icon": "../icon/index"
+    }
+}

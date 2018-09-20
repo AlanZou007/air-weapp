@@ -1,0 +1,10 @@
+<view class="air-class air-loadmore">
+    <view class="air-loadmore-main">
+        <view wx:if="{{type === 'loading'}}" class="air-loadmore-loading">
+            <air-loading color="{{color}}" />
+        </view>
+         <view wx:if="{{type === 'nodata'}}" class="air-loadmore-nodata">
+            <text style="color: {{color}}">{{text}}</text>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,3 @@
+<air-panel title="小程序码" hideBorder>
+    <air-qrcode air-class="air-qrcode--padding"  preView />
+</air-panel>

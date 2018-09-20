@@ -14,7 +14,7 @@
 	"libVersion": "2.0.9",
 	"appid": "wxc265fd9acbb92c35",
 	"projectname": "airUI",
-	"isGameTourist": true,
+	"isGameTourist": false,
 	"condition": {
 		"search": {
 			"current": -1,
@@ -24,13 +24,78 @@
 			"current": -1,
 			"list": []
 		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
 		"game": {
 			"currentL": -1,
 			"list": []
 		},
 		"miniprogram": {
 			"current": -1,
-			"list": []
+			"list": [
+				{
+					"id": -1,
+					"name": "icon",
+					"pathName": "pages/icon/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "color",
+					"pathName": "pages/color/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "message",
+					"pathName": "pages/message/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "rate",
+					"pathName": "pages/rate/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "stepper",
+					"pathName": "pages/stepper/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "stepper",
+					"pathName": "pages/stepper/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "actionsheet",
+					"pathName": "pages/action-sheet/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "loading",
+					"pathName": "pages/loading/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "switch",
+					"pathName": "pages/switch/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "badge",
+					"pathName": "pages/badge/index",
+					"query": ""
+				}
+			]
 		}
 	}
 }

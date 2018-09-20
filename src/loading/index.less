@@ -1,0 +1,72 @@
+@import "../styles/_base.less";
+@import "../styles/_mixins.less";
+
+@loading-dot-size-small: 12px;
+@loading-dot-size: 20px;
+@loading-dot-size-large: 30px;
+
+.size(@width; @height) {
+    width: @width;
+    height: @height;
+}
+
+.square(@size) {
+    .size(@size; @size);
+}
+
+.air-loading {
+    color: @primary-color;
+    vertical-align: middle;
+    text-align: center;
+
+    &-fullscreen{
+        z-index: @zindex-spin-fullscreen;
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &-large {
+        .square(@loading-dot-size-large);
+    }
+
+    &-default {
+        .square(@loading-dot-size);
+    }
+
+    &-small {
+        .square(@loading-dot-size-small);
+    }
+
+    .circle{
+        display: inline-block;
+        margin-right: 12px;
+        vertical-align: middle;
+        background: transparent;
+        border-radius: 50%;
+        border: 2px solid #fff;
+        border-color: #2d8cf0 #2d8cf0 #2d8cf0 transparent;
+        animation: loading 0.8s linear;
+        animation-iteration-count: infinite;
+    }
+}
+
+
+
+
+@keyframes loading {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+

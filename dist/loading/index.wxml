@@ -1,0 +1,7 @@
+<view class="air-class air-loading  {{ fullscreen ? 'air-loading-fullscreen' : '' }}">
+    <view 
+    wx:if="{{type === 'circle'}}" 
+    class="air-loading-{{size}} circle"
+    style="{{color ? 'border-color: ' + color + ' ' + color + ' ' + color + ' transparent' : ''}}"
+    ></view>
+</view>

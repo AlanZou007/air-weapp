@@ -1,0 +1,29 @@
+
+.pop-example--top {
+    width: 100vw;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.7);
+    font-size: 12px;
+    text-align: center;
+    background: #fff;
+}
+
+.pop-example__container {
+    padding: 10px;
+    background: #fff;
+    overflow: hidden;
+}
+
+.pop-example__container--bottom {
+    padding: 10px;
+    width: 100vw;
+    text-align: center;
+    background: #fff;
+}
+
+.pop-example__container--left,
+.pop-example__container--right {
+    height: 100vh;
+    padding: 10px;
+    background: #fff;
+}

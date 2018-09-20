@@ -1,0 +1,18 @@
+<view style="margin-top: 100px">
+    <air-button type="ghost" bind:click="handleOpen1">一般用法</air-button>
+    <air-button type="ghost" bind:click="handleOpen2">带有提示,异步</air-button>
+    <air-action-sheet
+        visible="{{visible1}}"
+        showCancel
+        actions="{{actions1}}"
+        bind:cancel="handleCancel1"
+        bind:click="handleClickItem1">
+    </air-action-sheet>
+    <air-action-sheet visible="{{ visible2 }}" actions="{{ actions2 }}" show-cancel bind:cancel="handleCancel2" bind:click="handleClickItem2" mask-closable="{{ false }}">
+    <view slot="header" style="padding: 16px">
+        <view style="color: #444;font-size: 16px">确定吗？</view>
+        <text>删除后无法恢复哦</text>
+    </view>
+</air-action-sheet>
+</view>
+<air-top-tips id="message" />
